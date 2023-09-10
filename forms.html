@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- UPSC form -->
+    <h2>Union Public Service Commission</h2>
+    <hr>
+    <br>
+    <h8>personal details</h8>
+    <hr>
+    <br>
+    <form action="backend.java">
+        
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="myName" id="name" >    
+        </div>
+        <br>
+        <div>  
+           Gender : Male <input type="radio" name="mygender"> Female<input type="radio" name="mygender"> Other<input type="radio" name="mygender" >
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth :  </label>
+            <input type="date" name="myDate" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="fn"> Father's Name : </label>
+             <input type="text" name="myFather's Name" id="fn">
+        </div>
+        <br>
+        <div>
+            <label for="mn">Mother's Name :  </label>
+             <input type="text" name="myMother's Name" id="mn">
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Nationality :</label>
+            <select name="myNationality" id="nationality">
+                <option value="ind">Indian</option>
+                <option value="oth">Other</option>
+
+            </select>     
+        </div>
+        <br>
+        <div>
+            <label for="ms">Marital Status :</label>
+            <select name="myMaritalStatus" id="ms">
+                <option value=" marital status">Select marital status</option>
+                <option value="marr">Married</option>
+                <option value="not marr">Not married</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="d">Disabilities :</label>
+            <select name="urDisabilities" id="d">
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="eq">Select ur degree subject in graduation : </label>
+            <select name="myEducation" id="eq">
+                <option value="stream">[select stream]</option>
+                <option value="med">Medical</option>
+                <option value="non med">Non Medical</option>
+                <option value="arts">Arts</option>
+                <option value="comm">Commerce</option>
+            </select>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <h8>Address</h8>
+        <hr>
+        <br>
+        <div>
+            <label for="add1">Line 1 : </label>
+            <input type="text" name="myAddress1" id="add1">
+
+        </div> 
+        <br>
+        <div>
+            <label for="add2">Line 2 : </label>
+            <input type="text" name="myAddress2" id="add2">
+
+        </div> 
+        <br>
+        <div>
+            <label for="dis">District : </label>
+            <input type="text" name="myDistrict" id="dis">
+
+        </div> 
+        <br>
+        <div>
+            <label for="state">Ur State: </label>
+            <input type="text" name="myState" id="state">
+
+        </div> 
+        <br>
+        <div>
+            <label for="pin">Pincode :  </label>
+            <input type="number" name="myNumber" id="pin">
+
+        </div> 
+        <br>
+        <!-- two blocks in same line -->
+        <div>
+            
+                <label for="mob">Mobile number with area code :  </label>
+                <input type="number" name="myMobileNumber" id="mob">
+                <input type="number" name="myAreaCode" id="mob">
+               
+
+        </div>
+        <br>
+        <div>
+            <label for="@">Enter Email :  </label>
+            <input type="email" name="myEmail" id="@">
+
+        </div>  
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>     
+        
+    </form>
+
+</body>
+</html>
